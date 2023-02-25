@@ -1,9 +1,5 @@
 import pytest
-from selenium.webdriver import ActionChains
-from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as ec
-from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime, timedelta

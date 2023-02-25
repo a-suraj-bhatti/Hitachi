@@ -34,8 +34,6 @@ public class BookingTest {
         driver.findElement(By.xpath("//button[@aria-describedby='flight-card-0']")).click();
         driver.findElement(By.xpath("//span[normalize-space()='Select']")).click();
 
-
-        // Close the browser
         driver.quit();
     }
 }
